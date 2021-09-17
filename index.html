@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 02</title>
+	<link rel="stylesheet" href="Aula 2.css">
+	<script src="Aula 2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+  <h1 class="page-title">
+    Conversor de Moedas
+  </h1>
+  <p class="page-subtitle">
+    Converta valores em dolares (US$)</p>
+  <p class="page-subtitle"> para reais (R$), euros (€) ou BITCOIN
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="moeda">Insira o valor em US$:</label><br>
+  <input type="number" id="valor" size="2" /><br>
+  <button type="submit" onclick="ConverterReal()">Converter para R$</button>
+  <button type="submit" onclick="ConverterEuro()">Converter para €</button>
+  <button type="submit" onclick="ConverterBitcoin()">Converter para BITCOIN</button>
+  <div>
+    <h2 id="valorConvertido"></h2>
+  </div>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </body>
+</html>
