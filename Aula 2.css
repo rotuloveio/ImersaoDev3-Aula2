@@ -1,6 +1,5 @@
 body {
   font-family: "Courier New", monospace;
-  min-height: 200px;
   background-image: url("https://www.investificar.com.br/wp-content/uploads/2020/11/Japanese-Candlesticks-Technical-Analysis-Blackwell-Global-FCA-Forex-Broker-2-1.jpg");
   background-color: #000000;
   background-size: 125vh;
@@ -11,7 +10,6 @@ body {
 .container {
   text-align: center;
   padding: 20px;
-  height: 100vh;
 }
 
 .page-title {
